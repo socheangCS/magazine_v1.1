@@ -161,8 +161,6 @@ const CSprovider = ({ children }) => {
         try{
             const res = axios.post(`${URI}/api/user/updateview`, data);
             return (await res).data
-           }catch(err){
-            console.error(err)
            }
     }
     return (
