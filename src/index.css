@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.toolbarClassName {
+  border-radius: 10px;
+}
+.wrapperClassName {
+  border: 1px solid rgb(231, 221, 221);
+  padding: 1rem;
+}
+.editorClassName {
+  border-radius: 10px;
+  padding: 1rem;
+}
