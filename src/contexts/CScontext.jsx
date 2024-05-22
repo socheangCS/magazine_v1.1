@@ -158,10 +158,8 @@ const CSprovider = ({ children }) => {
            }
     }
     const updateView = async (data) => {
-        try{
             const res = axios.post(`${URI}/api/user/updateview`, data);
             return (await res).data
-           }
     }
     return (
         <CScontext.Provider value={{getPopularPosts,getLastHeadLines,getItPosts,getSocialPosts,updateView,getUserPosts,updatePost,deletePost,toggleActive,addPost,getPosts,signIn, signOut, getData, setAdminData }}>
